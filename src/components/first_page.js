@@ -1,4 +1,4 @@
-import pic from "../accets/me1.jpg"; // Ensure this path is correct
+import pic from "../accets/me1.jpg"; 
 import "../Styling/first_page.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; 
 import { faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
