@@ -30,32 +30,22 @@
     }   
 }
 
-@keyframes faded {
+@keyframes faded1 {
     0%{
-        transform: translateX(1000px);
+        transform: translateX(100px);
         opacity: 0;
     }
     100%{
-        transform: translateX(0);
+        transform: translateX(00px);
         opacity: 1;
-    }
-}
-@keyframes rot {
-    0%{
-        transform: rotate(0deg);
-    }
-    100%{
-        transform: rotate(360deg);
     }
 }
 .des{
     padding-left: 20%;
     font-size: 2.5rem;
     padding-top: 100px;
-    animation: faded;
-    animation-duration: 3s;
-    animation-iteration-count: 1;
-    transition: ease-in-out;
+    animation: faded1;
+    animation-duration: 2s;
 }
 p{
     
