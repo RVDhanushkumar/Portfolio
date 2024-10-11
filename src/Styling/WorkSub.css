@@ -2,11 +2,8 @@
     animation: appear ease-in-out;
     animation-timeline: view();
 }
-h1{
-     
-}
 .pro{
-    animation: faded ease-in-out;
+    animation: faded2 ease-in-out;
     animation-timeline: view();
 }
 a{
@@ -23,19 +20,16 @@ a{
         scale: 1;
         opacity: 1;        
     }
-    100%{
-        
-    }
 }
 
-@keyframes faded {
+@keyframes faded2 {
     0%{
         opacity: 0;
     }
     50%{
         opacity: 1;
     }
-    100%{
+    90%{
         opacity: 0;
     }
 }

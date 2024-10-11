@@ -1,4 +1,4 @@
-import pic1 from "../accets/Project.png";
+import { width } from "@fortawesome/free-brands-svg-icons/fa42Group";
 import "../Styling/WorkSub.css"
 
 function WorksSub(props){
@@ -10,6 +10,7 @@ function WorksSub(props){
     const info={
         paddingTop: "200px",
         marginRight : "100px",
+        marginLeft :"-100px",
         textAlign : "start",
     };
     const line = {
@@ -26,19 +27,12 @@ function WorksSub(props){
         borderRadius : "10px",
         padding : "10px",
     }
-    const dot = {
-        position : "fixed",
-        top: "0%",
-        left : "10%",
-        backgroundColor: "aqua",
-        height : "20px",
-        width : "20px",
-        borderRadius : "20px",
-        boxShadow : "0px 0px 20px white"
-    };
     const pic ={
+        position: "absolute",
         paddingTop :"100px",
-        height :"400px"
+        maxHeight : "400px",
+        maxWidth: "600px",
+        rigth : "100px"
     };
     const h = {
         maxWidth : "180px",
@@ -51,7 +45,7 @@ function WorksSub(props){
             </div>
             <div class="vertical-line" style={line}></div>
             <div className="pro">
-                <img src= {pic1} alt="project pic" style={pic}></img>
+                <img src= {props.pic} alt="project pic" style={pic}></img>
             </div>
         </div>
     );

@@ -1,0 +1,31 @@
+.whole{
+    display: flex;
+}
+.aboutme{
+    margin-top: 150px;
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+.aboutme h1{
+    animation: appear1 linear;
+    animation-timeline: view();
+}
+.left{  
+    margin-top: 100px;
+    max-width: 50%;
+    animation: appear1 linear;
+    animation-timeline: view();
+}
+
+@keyframes appear1 {
+    0%{
+        opacity: 0;
+        scale: 0.5;
+    }
+    40%{
+        opacity: 1;
+        scale: 1;
+    }
+    
+}

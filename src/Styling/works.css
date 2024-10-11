@@ -2,7 +2,9 @@
     animation: faded ease-in-out;
     animation-timeline: view();
 }
-
+p{
+    margin-left: 5%;
+}
 @keyframes faded {
     0%{
         opacity: 0;
@@ -24,5 +26,5 @@
     box-shadow: 0px 0px 10px 0px white;
     color: black;
     border-radius: 20px;
-    margin-left: 47%;
+    margin-left: 48%;
 }
