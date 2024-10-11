@@ -6,20 +6,23 @@
     background-color: rgb(38, 50, 56);
     opacity: 0.9;
 }
+
 ul{
     position: absolute;
     right: 5%;
     display: flex;
 }
+
 li{
     cursor: pointer;
     color: gold;
     list-style: none;
     padding: 10px;
     margin:10px;
-    margin-left: 20;
+    margin-left: 20px;
     border-bottom: 1px solid rgb(38, 50, 56);
 }
+
 li:hover{
     border-bottom: 1px solid gold;
     transition: 1s;

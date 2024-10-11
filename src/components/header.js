@@ -1,7 +1,7 @@
 import "../Styling/header.css"
 import pic from "../accets/DK logo.png"
 function Header(){
-    const options=["Home","About me", "Contact", "Projects"]
+    const options=["Home","Projects","About me", "Contact"]
     const list = options.map(options =><li>{options}</li>)
     return(
         <div className = "main_head">
