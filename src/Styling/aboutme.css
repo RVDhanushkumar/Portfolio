@@ -1,6 +1,6 @@
 .whole {
     display: flex;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 .highlight{
     color: gold;
@@ -11,12 +11,14 @@
     color: white;
     justify-content: center;
     text-align: center;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
-.aboutme h1 {
+.aboutme h1{
     animation: appear1 linear;
     animation-timeline: view();
+    margin: 0;
+    
 }
 
 .left {  
@@ -44,10 +46,7 @@
     0%{
         opacity: 0;
     }
-    10% {
-        opacity: 0;
-    }
-    50% {
+    70% {
         opacity: 1;
     } 
     90%{
@@ -67,8 +66,6 @@
     transform: translateY(-50px);
     opacity: 1;
 }
-
-
 .right .im {
     opacity: 1;
 }
@@ -79,4 +76,23 @@
 
 .right .im:hover {
     opacity: 1;
+}
+.num_info{
+display: flex;
+justify-content: center;
+gap: 100px;
+}
+.insta h1{
+    animation: none;
+    color: silver;
+}
+.linkedin h1{
+    animation: none;
+    color: silver;
+    display: flex;
+    justify-content: center;
+}
+.count{
+    font-size: 1.2rem;
+    min-width: 100px;
 }
