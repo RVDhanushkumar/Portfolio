@@ -7,7 +7,7 @@ import pic3 from "../assets/ToDoList.png"
 
 function Works() {
     const workMain = {
-        marginTop : "100px",
+        marginTop : "50px",
         textAlign : "center",
         justifyContent : "center",
         color : "white",

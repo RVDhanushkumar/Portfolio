@@ -1,13 +1,13 @@
 .first_page{
     padding: 10%;
-    padding-top: 10%;
+    padding-top: 5%;
     padding-left: 15%;
     display: flex;
     color: aliceblue;
     background-image: url("../assets/grid-black2.b1bce22d.svg");
 }
 .pic1{
-    padding-top: 10%;
+    padding-top: 8%;
     padding-left: 5%;
 }
 .pic{
@@ -43,7 +43,7 @@
 .des{
     padding-left: 20%;
     font-size: 2.5rem;
-    padding-top: 100px;
+    padding-top: 50px;
     animation: faded1;
     animation-duration: 2s;
 }
