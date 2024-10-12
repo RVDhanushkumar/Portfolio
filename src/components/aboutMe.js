@@ -1,8 +1,8 @@
 import "../Styling/aboutme.css";
-import pic from "../accets/me2.jpg"
-import pic3 from "../accets/me6.jpg"
-import pic4 from "../accets/me4.jpg"
-import pic5 from "../accets/me5.jpg"
+import pic from "../assets/me2.jpg"
+import pic3 from "../assets/me6.jpg"
+import pic4 from "../assets/me4.jpg"
+import pic5 from "../assets/me5.jpg"
 
 
 function AboutMe(){

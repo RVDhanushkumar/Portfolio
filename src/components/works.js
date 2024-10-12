@@ -1,9 +1,9 @@
 import WorksSub from "./WorkSub";
 import "../Styling/works.css";
-import pic from "../accets/WomenSadetyApp.png"
-import pic2 from "../accets/SRA.png"
-import pic4 from "../accets/LandingPage.png"
-import pic3 from "../accets/ToDoList.png"
+import pic from "../assets/WomenSadetyApp.png"
+import pic2 from "../assets/SRA.png"
+import pic4 from "../assets/LandingPage.png"
+import pic3 from "../assets/ToDoList.png"
 
 function Works() {
     const workMain = {

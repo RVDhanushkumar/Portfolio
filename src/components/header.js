@@ -1,5 +1,5 @@
 import "../Styling/header.css"
-import pic from "../accets/DK logo.png"
+import pic from "../assets/DK logo.png"
 function Header(){
     const options=["Home","Projects","About me", "Contact"]
     const list = options.map(options =><li>{options}</li>)
