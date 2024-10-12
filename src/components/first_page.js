@@ -11,7 +11,7 @@ function FirstPage() {
             </div>
             <div className="des">
                 <h1>I'm Dhanush Kumar</h1>
-                <p>FullStack Developer | App Developer |</p>
+                <p className="role">FullStack Developer | App Developer |</p>
                 <a href="https://www.instagram.com/dhanush_awesome7"><FontAwesomeIcon icon={faInstagram} className="icon"/></a>
                 <a href="https://www.linkedin.com/in/dhanush-awesome"><FontAwesomeIcon icon={faLinkedin} className="icon"/></a>
                 <a href="https://github.com/RVDhanushkumar"><FontAwesomeIcon icon={faGithub} className="icon"/></a>

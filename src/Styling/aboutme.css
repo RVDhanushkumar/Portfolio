@@ -1,31 +1,76 @@
-.whole{
+.whole {
     display: flex;
+    margin-top: 100px;
 }
-.aboutme{
-    margin-top: 150px;
+
+.aboutme {
+    margin-top: 200px;
     color: white;
     justify-content: center;
     text-align: center;
+    margin-bottom: 200px;
 }
-.aboutme h1{
+
+.aboutme h1 {
     animation: appear1 linear;
     animation-timeline: view();
 }
-.left{  
-    margin-top: 100px;
+
+.left {  
+    font-size: 1.5rem;
+    margin-top: 50px;
     max-width: 50%;
+    padding-right: 100px;
     animation: appear1 linear;
     animation-timeline: view();
+}
+
+.right {
+    display: flex;
+    max-width: 50%;
+}
+
+.pic2 {
+    max-height: 500px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px white;
 }
 
 @keyframes appear1 {
     0%{
         opacity: 0;
-        scale: 0.5;
     }
-    40%{
+    10% {
+        opacity: 0;
+    }
+    60% {
         opacity: 1;
-        scale: 1;
-    }
-    
+    }    
+}
+
+.im {
+    max-width: 150px;
+    opacity: 1; /* Default to full opacity */
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+
+.im:hover {
+    z-index: 1;
+    transform: translateY(-50px);
+    opacity: 1;
+}
+
+
+.right .im {
+    opacity: 1;
+}
+
+.right:hover .im {
+    opacity: 0.4; 
+}
+
+.right .im:hover {
+    opacity: 1;
 }

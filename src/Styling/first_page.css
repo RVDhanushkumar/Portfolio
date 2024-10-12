@@ -47,10 +47,11 @@
     animation: faded1;
     animation-duration: 2s;
 }
-p{
-    
+.role{
+    margin-left: 0;
     font-size: 1.5rem;
     color: silver;
+
 }
 .icon{
     color: silver;
