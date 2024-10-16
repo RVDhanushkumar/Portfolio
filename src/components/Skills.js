@@ -8,6 +8,8 @@ import pic5 from "../assets/c_logo.png"
 import pic6 from "../assets/c++_logo.png"
 import pic7 from "../assets/python_logo.png"
 import pic8 from "../assets/aws_logo.png"
+import pic9 from "../assets/java_logo.png"
+import pic10 from "../assets/mongo_logo.png"
 
 
 function Skills(){
@@ -28,6 +30,8 @@ function Skills(){
                 <SkillCard img={pic6} name="c++ Language"/>
                 <SkillCard img={pic7} name="Python"/>
                 <SkillCard img={pic8} name="AWS tools"/>
+                <SkillCard img={pic9} name="Java"/>
+                <SkillCard img={pic10} name="MongoDB"/>
             </div>
         </div>
         
