@@ -1,15 +1,15 @@
 .info{
-    animation: appear ease-in-out;
+    animation: appear-work ease-in-out;
     animation-timeline: view();
 }
 .pro{
-    animation: faded2 ease-in-out;
+    animation: faded-in ease-in-out;
     animation-timeline: view();
 }
 a{
     text-decoration: none;
 }
-@keyframes appear {
+@keyframes appear-work {
     0% {
         transform: translateX(-1000px);
         scale: 0;
@@ -22,7 +22,7 @@ a{
     }
 }
 
-@keyframes faded2 {
+@keyframes faded-in {
     0%{
         opacity: 0;
     }
