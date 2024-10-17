@@ -1,0 +1,64 @@
+.info {
+    animation: come-on ease-in-out;
+    animation-timeline: view();
+}
+
+.pro {
+    animation: magic ease-in-out;
+    animation-timeline: view();
+}
+
+a {
+    text-decoration: none;
+}
+
+@keyframes come-on {
+    0% {
+        transform: translateX(-1000px);
+        scale: 0;
+        opacity: 0;
+    }
+    50% {
+        transform: translateX(0px);
+        scale: 1;
+        opacity: 1;
+    }
+}
+
+@keyframes magic {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1; /* Maintain final state */
+    }
+}
+
+.pro img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.pro:hover img {
+    transform: scale(1.05); /* Enlarge image on hover */
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .works_sub {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info, .pro {
+        margin: 0;
+        padding: 0;
+        max-width: 100%;
+    }
+
+    .vertical-line {
+        display: none;
+    }
+}

@@ -1,5 +1,24 @@
-.skills{
-    height: auto;
+.skills_whole {
     width: 100%;
-    overflow: scroll;
+    background-color: aliceblue;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.skills_whole h1 {
+    text-align: center;
+    color: silver;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    overflow-x: auto;
+    padding-bottom: 20px;
+    scroll-behavior: smooth;
 }
