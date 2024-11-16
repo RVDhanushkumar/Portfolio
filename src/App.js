@@ -5,6 +5,7 @@ import Works from './components/works.js';
 import AboutMe from './components/aboutMe.js';
 import Skills from './components/Skills.js';
 import { Element } from 'react-scroll';
+import Extra from './components/Extra.js';
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
       </Element>
       <Element name="skills">
         <Skills />
+      </Element>
+      <Element name="skills">
+        <Extra />
       </Element>
     </div>
   );
