@@ -1,9 +1,10 @@
 .info {
-    opacity: 0; /* Start hidden for animation */
+    opacity: 0;
 }
 
 .pro {
-    opacity: 0; /* Start hidden for animation */
+    opacity: 0;
+    width: 10%;
 }
 
 a {
@@ -22,7 +23,6 @@ a {
         opacity: 1;
     }
 }
-
 @keyframes magic {
     0% {
         opacity: 0;
@@ -31,19 +31,18 @@ a {
         opacity: 1;
     }
     100% {
-        opacity: 1; /* Maintain final state */
+        opacity: 1; 
     }
 }
 
 .pro img {
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.1s ease-in-out;
 }
 
 .pro:hover img {
-    transform: scale(1.05); /* Enlarge image on hover */
+    transform: scale(1.05);
 }
 
-/* Responsive design */
 @media (max-width: 768px) {
     .works_sub {
         flex-direction: column;
@@ -61,13 +60,12 @@ a {
     }
 }
 
-/* Animation applied when the element has 'animate' class */
 .info.animate {
-    animation: come-on 1s ease-in-out forwards;
-    opacity: 1; /* Show the element */
+    animation: come-on 2s ease-in-out forwards;
+    opacity: 1;
 }
 
 .pro.animate {
-    animation: magic 0.5s ease-in-out forwards;
-    opacity: 1; /* Show the element */
+    animation: magic 1.5s ease-in-out forwards;
+    opacity: 1;
 }

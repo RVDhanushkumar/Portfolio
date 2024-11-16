@@ -1,6 +1,11 @@
+
+.info_skill{
+    text-align: center;
+    color: #f8f9fa;
+    opacity: 1;
+}
 .card {
     color: white;
-    height: 220px;
     background-color: #f8f9fa;
     width: 170px;
     margin: 20px;
@@ -21,7 +26,7 @@
 
 .card h1 {
     font-size: 1.2rem;
-    color: #333;
+    color: rgb(186, 172, 172);
     background-color: #fff;
     padding: 10px;
     width: 100%;
@@ -37,6 +42,6 @@
     transition: transform 0.3s ease;
 }
 
-.card:hover img {
+.card:hover img{
     transform: scale(1.1);
 }

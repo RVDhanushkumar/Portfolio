@@ -1,13 +1,10 @@
 .skills_whole {
     width: 100%;
-    background-color: aliceblue;
     padding: 20px;
     box-sizing: border-box;
 }
 
 .skills_whole h1 {
-    text-align: center;
-    color: silver;
     font-size: 2rem;
     margin-bottom: 20px;
 }

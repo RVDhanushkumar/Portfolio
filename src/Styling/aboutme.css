@@ -18,13 +18,12 @@
     animation: appear1 linear;
     animation-timeline: view();
     margin: 0;
-    
 }
 
 .left {  
     font-size: 1.5rem;
     margin-top: 10px;
-    max-width: 50%;
+    max-width: 45%;
     padding-right: 100px;
     animation: appear1 linear;
     animation-timeline: view();
@@ -55,7 +54,7 @@
 }
 
 .im {
-    max-width: 150px;
+    max-width: 130px;
     opacity: 1;
     transition: transform 0.5s ease, opacity 0.5s ease;
     display: inline-block;

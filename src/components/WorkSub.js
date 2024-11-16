@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import "../Styling/cardst.css";
+import "../Styling/WorkSub.css";
 
 function WorksSub(props) {
     const works_sub = {
