@@ -20,7 +20,7 @@ function Skills(){
     };
     return (
         <div className="skills_whole">
-            <h1 style={pro}>--Skills known--</h1>
+            <h1 style={pro} id="skills_heading">Skills known</h1>
             <div className="skills">
                 <SkillCard img={pic1} name="React"/>
                 <SkillCard img={pic2} name="HTML"/>

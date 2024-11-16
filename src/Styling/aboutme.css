@@ -13,7 +13,16 @@
     text-align: center;
     margin-bottom: 100px;
 }
-
+#about_head{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color:whitesmoke;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #ffb400;
+    display: inline-block;
+    padding-bottom: 5px;
+}
 .aboutme h1{
     animation: appear1 linear;
     animation-timeline: view();

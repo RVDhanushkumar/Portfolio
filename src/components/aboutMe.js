@@ -35,7 +35,7 @@ function AboutMe() {
 
   return (
     <div className="aboutme" ref={ref}>
-      <h1>--About Me--</h1>
+      <h1 id="about_head">About Me</h1>
       <div className="whole">
         <div className="left">
           <p>

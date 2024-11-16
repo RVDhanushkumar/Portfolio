@@ -25,7 +25,7 @@ function Works() {
     return (
         <div className="Works_main" style={workMain}>
             <h1 style={{ fontSize: "1rem" }}> -- Scroll Down To Know More --</h1>
-            <h1 className="work" style={heading}>Works</h1>
+            <h1 className="work_head" style={heading}>Works</h1>
             <p className="work" style={pp}>Let's check out some of my Top Projects</p>
             <WorksSub name="Women Safety App" link="https://github.com/RVDhanushkumar/WomenSafetyApp-Evasafe.git" pic={pic} />
             <WorksSub name="Student Registration Management" link="https://github.com/RVDhanushkumar/Student-Registration-Application.git" pic={pic2} />
