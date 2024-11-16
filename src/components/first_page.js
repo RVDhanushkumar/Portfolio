@@ -2,6 +2,7 @@ import pic from "../assets/me1.jpg";
 import "../Styling/first_page.css";
 import r1 from "../assets/resume.pdf";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; 
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 function FirstPage() {
@@ -23,6 +24,7 @@ function FirstPage() {
                     <a href="https://github.com/RVDhanushkumar" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faGithub} className="icon"/>
                     </a>
+                    <a href="mailto:rapetidhanushkumar13@example.com"><FontAwesomeIcon icon={faEnvelope} className="icon"/></a>
                 </div>
                 <a href={r1} download="RVDhanushKumar_Resume.pdf">
                     <button className="resume-button">Download Resume</button>

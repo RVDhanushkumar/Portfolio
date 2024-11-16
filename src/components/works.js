@@ -15,7 +15,7 @@ function Works() {
     const heading = {
         marginTop: "150px",
         fontSize: "2.5rem",
-        marginLeft: "80px",
+        marginLeft: "-10px",
     };
     const pp = {
         marginTop: "-20px",
