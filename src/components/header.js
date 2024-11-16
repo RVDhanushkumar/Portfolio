@@ -9,13 +9,15 @@ function Header() {
     { name: "Home", to: "firstPage" },
     { name: "Projects", to: "works" },
     { name: "About me", to: "aboutMe" },
-    { name: "Skills", to: "skills" }
+    { name: "Skills", to: "skills" },
+    { name: "Achievement", to: "Achivements" },
+    { name: "Contact", to: "contact" }
   ];
 
 
   const list = options.map(option => (
     <li key={option.to}>
-      <Link to={option.to} smooth={true} duration={500}>
+      <Link to={option.to} smooth={true} duration={700}>
         {option.name}
       </Link>
     </li>

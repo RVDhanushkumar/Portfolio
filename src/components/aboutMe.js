@@ -10,7 +10,7 @@ import { useEffect, useState } from "react";
 function Number({ n, startAnimation }) {
   const { number } = useSpring({
     from: { number: 0 },
-    number: startAnimation ? n : 0, // Animation starts when startAnimation is true
+    number: startAnimation ? n : 0, 
     delay: 500,
     config: { mass: 1, tension: 20, friction: 10 }
   });

@@ -57,3 +57,22 @@
     color: silver;
     padding-right: 20px;
 }
+.icon:hover{
+    color: blue;
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+.resume-button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .resume-button:hover {
+    background-color: #0056b3;
+  }

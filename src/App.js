@@ -6,6 +6,8 @@ import AboutMe from './components/aboutMe.js';
 import Skills from './components/Skills.js';
 import { Element } from 'react-scroll';
 import Extra from './components/Extra.js';
+import Contact from './components/contact.js';
+import Footer from './components/Footer.js';
 
 function App() {
   return (
@@ -23,8 +25,14 @@ function App() {
       <Element name="skills">
         <Skills />
       </Element>
-      <Element name="skills">
+      <Element name="Achivements">
         <Extra />
+      </Element>
+      <Element name="Contact">
+        <Contact />
+      </Element>
+      <Element name="Footer">
+        <Footer />
       </Element>
     </div>
   );
