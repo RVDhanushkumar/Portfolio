@@ -27,7 +27,7 @@ function FirstPage() {
                     <a href="mailto:rapetidhanushkumar13@example.com"><FontAwesomeIcon icon={faEnvelope} className="icon"/></a>
                 </div>
                 <a href={r1} download="RVDhanushKumar_Resume.pdf">
-                    <button className="resume-button">Download Resume</button>
+                    <button className="glow-on-hover">Download Resume</button>
                 </a>
             </div>
         </div>
