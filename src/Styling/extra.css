@@ -20,10 +20,22 @@
     gap: 20px;
     justify-items: center;
     margin-top: 20px;
+    animation: faded1 ease-in-out;
+    animation-timeline: view();
 }
 
 @media (max-width: 768px) {
     .all-achievements {
         grid-template-columns: 1fr;
+    }
+}
+@keyframes faded1 {
+    0%{
+        opacity: 0;
+        scale: 0;
+    }
+    30%{
+        opacity: 1;
+        scale: 1;
     }
 }
