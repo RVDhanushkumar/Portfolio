@@ -8,6 +8,7 @@ import { Element } from 'react-scroll';
 import Extra from './components/Extra.js';
 import Contact from './components/contact.js';
 import Footer from './components/Footer.js';
+import Temp from "./components/Temp.js";
 
 function App() {
   return (
@@ -30,6 +31,9 @@ function App() {
       </Element>
       <Element name="Contact">
         <Contact />
+      </Element>
+      <Element name="temp">
+        <Temp />
       </Element>
       <Element name="Footer">
         <Footer />

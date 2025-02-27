@@ -1,7 +1,7 @@
 import Achievements from "./ach_card";
 import pic1 from "../assets/GITHUB.png";
 import pic2 from "../assets/SIH.png";
-import pic3 from "../assets/AR_hack.jpg";
+import pic3 from "../assets/AR_hackathon merit.jpg";
 import pic4 from "../assets/gfg_workshop.jpg";
 import pic5 from "../assets/CodeBounty.png";
 import pic6 from "../assets/R_V_Dhanush_Kumar_Badge_Contributor_GSSoC2024.png";

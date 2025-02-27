@@ -6,7 +6,7 @@ function Achievements({ pic, head, des }) {
     return (
         <div className="achievement-card">
             <img
-                src={pic || "https://via.placeholder.com/150"}
+                src={pic}
                 alt="Achievement"
                 className="achievement-img"
             />
